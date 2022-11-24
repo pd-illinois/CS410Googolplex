@@ -10,6 +10,8 @@ python -m nltk.downloader stopwords (if not downloaded while loading libraries)
 pip install wordcloud
 pip install emot
 pip install textblob
+pip install langdetect
+pip install nltk
 
 
 **Introduction**
@@ -55,5 +57,13 @@ All the 100000 tweets are available in Data Folder as tweets_all.csv file. Due t
 **3.5 Latent Dirichlet Allocation**
 
 **4. Visualization**
+
+
+
+**----------------------------REFERENCES-----------------------**
+https://towardsdatascience.com/4-python-libraries-to-detect-english-and-non-english-language-c82ad3efd430
+
+https://pypi.org/project/langdetect/
+https://betterprogramming.pub/how-to-scrape-tweets-with-snscrape-90124ed006af
 
 
