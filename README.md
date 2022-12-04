@@ -66,4 +66,8 @@ https://towardsdatascience.com/4-python-libraries-to-detect-english-and-non-engl
 https://pypi.org/project/langdetect/
 https://betterprogramming.pub/how-to-scrape-tweets-with-snscrape-90124ed006af
 
+https://github.com/cjhutto/vaderSentiment
+Hutto, C.J. & Gilbert, E.E. (2014). VADER: A Parsimonious Rule-based Model for Sentiment Analysis of Social Media Text. Eighth International Conference on Weblogs and Social Media (ICWSM-14). Ann Arbor, MI, June 2014.
+
+
 
