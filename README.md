@@ -23,6 +23,10 @@ Key Goals for the project that we set and achieved were
     *Topic Analysis* : Identify top topics in tweets and predict the dominant topic and its percentage for each tweet.
     *Visualize* : Lastly compare our findings and present them as part of our final project.
 
+Implementation Details:
+
+<copy image here with implementation details>
+
 **Data Preparation:**
 
 Step 1: Data Scrapping & Storage
@@ -80,9 +84,13 @@ Vader is optimized for social media data and can yield good results when used wi
     cleaned_tweets	cleaned tweets by removing the punctuations	
     final_cleaned_tweets    cleaned tweets using lemmatization	
 
- **Data Understanding**
+ **Exploratory Data Analysis**
 
  1. What are the words/topics discussed:
+ 
+ ![image](https://user-images.githubusercontent.com/109382284/206315656-25ceffac-1122-4c34-b7b8-75eadc4b30da.png)
+
+As we see here, the words seen pre and post lemmatization are almost same. We wanted to see the change lemmatization brings on overall topic modeling and sentiment analysis. since, the words are similar, we assume our accuracy on both pre and post lemmatization should be similar. 
  
  2. What are the most popular hashtags of each tweet type ?
  
@@ -92,13 +100,30 @@ Vader is optimized for social media data and can yield good results when used wi
  For scraping our tweets, we have used the words vote, voting, elections, etc. and we see those are mostly commonly used words in the tweets and all the other words  are related to US midterm elections.
  
  3. What is the overall polarity of the tweets ?
+ 
  ![image](https://user-images.githubusercontent.com/109382284/206284649-ae9d4ab4-2361-4332-bfc1-40e7f6b35605.png)
 
  
-
 This bar graph shows that in the original not preprocessed data, we see that the number of positive tweets in our original not processed tweets are more than the positive number of tweets in cleaned and finally cleaned tweets. We wanted to have a fair distribution among the positive, neutral and negative tweets. 
  
- 
+**Topic Modeling using LDA**
+
+**Sentiment Analysis using Naive Bayes**
+
+**Sentiment Analysis using K-Nearest Neighbor**
+
+**Results Comparison**
+
+**Conclusion and Future work**
+
+- Accuracy improves if the data has been cleansed properly. We removed the words that are not a part of nltk.words. This helped in improving the accuracy for Naïve  Bayes from 65% to 75%. 
+- For KNN, difficult to build a feature vector of huge number of tweets. 
+- For sentiment analysis on tweets data, we found Naïve Bayes to show better accuracy over K-NN.
+- It was more difficult to train K-NN as compared with Naïve Bayes. Hence, we conclude to use Naïve Bayes for sentiment analysis on Tweets data.
+- For future work, the same model could be evaluated for different subjects other than US midterm elections by simply scraping the data on another topic from Twitter using the code provided and plugging that data for Topic Modeling and Text Categorization and could be evaluated for accuracy.
+- Future work could also include modeling other text categorization techniques like SVM, Deep Learning (LSTM), etc. with word embedding techniques such as Word2vec could also be applied and compared for accuracy.
+
+**To remove, this is earlier content**
  This is the master script for Our Project - US Midterm Elections 2022 - Twitter Sentiment Analysis.
 
 This Jupyter Notebook is divided into Various sections as per our Project Proposal.
