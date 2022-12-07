@@ -1,0 +1,14 @@
+emot == 3.1
+gensim == 4.1.2
+matplotlib == 3.6.2
+nltk == 3.7
+numpy == 1.23.4
+pandas == 1.4.2
+scikit-learn == 1.0.2
+sklearn
+snscrape == 0.4.3.20220106
+wordcloud == 1.8.2.2
+seaborn
+pyLDAvis
+
+
