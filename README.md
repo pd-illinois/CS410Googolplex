@@ -87,12 +87,16 @@ Vader is optimized for social media data and can yield good results when used wi
  2. What are the most popular hashtags of each tweet type ?
  
  ![image](https://user-images.githubusercontent.com/109382284/206284240-af6be292-19b1-4dd7-8e3b-0fcb0df0c3f3.png)
- For scraping our tweets, we have used the words vote, voting, elections, etc. and we see those are mostly commonly used words in the tweets and all the other words are related to US midterm elections.
+ 
+ 
+ For scraping our tweets, we have used the words vote, voting, elections, etc. and we see those are mostly commonly used words in the tweets and all the other words  are related to US midterm elections.
  
  3. What is the overall polarity of the tweets ?
  ![image](https://user-images.githubusercontent.com/109382284/206284649-ae9d4ab4-2361-4332-bfc1-40e7f6b35605.png)
 
- This bar graph shows that in the original not preprocessed data, we have about 
+ 
+
+This bar graph shows that in the original not preprocessed data, we see that the number of positive tweets in our original not processed tweets are more than the positive number of tweets in cleaned and finally cleaned tweets. We wanted to have a fair distribution among the positive, neutral and negative tweets. 
  
  
  This is the master script for Our Project - US Midterm Elections 2022 - Twitter Sentiment Analysis.
