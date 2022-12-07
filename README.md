@@ -82,13 +82,13 @@ c. NLP Specific Data Cleaning
 
     Date 	        Date on which tweet was posted	
     ID		
-    location	    Location from where tweet was posted	
-    tweet	        Content of the tweet	
+    location	 Location from where tweet was posted	
+    tweet	     Content of the tweet	
     num_of_likes	Number of likes on the tweet	
     num_of_retweet	Number of retweets	
     language	    language of the tweet, in our case it's english	
-    cleaned_tweets	        cleaned tweets by removing the punctuations	
-    final_cleaned_tweets	cleaned tweets using lemmatization	
+    cleaned_tweets	cleaned tweets by removing the punctuations	
+    final_cleaned_tweets    cleaned tweets using lemmatization	
 
  **Data Understanding**
 
@@ -98,7 +98,7 @@ c. NLP Specific Data Cleaning
 
 This Jupyter Notebook is divided into Various sections as per our Project Proposal.
 Broadly , these are
-1) Raw Data Capture (Using Snscrape)
+1) Raw Data Capture (01_Twitter_scrape.ipynb)
 2) Ingest and Store (Twitter_Scrap.ipynb)
 3) NLP Pipeline
     - Data Preproccessing ()
