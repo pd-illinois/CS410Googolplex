@@ -13,6 +13,7 @@ Please fork this repository and paste the github link of your fork on Microsoft 
     * Main Presentation with Setup Instructions / Result of Source Code Run / Error faced with Solution : CS410_Project_USMidtermElection.pdf 
     * Project Recording on Youtube. Click the logo below to view  : 
     [![CS410](/visualization/Main_logo.png)](https://www.youtube.com/watch?v=P1Q5hqZ8f58 "CS410")
+
  
 ### **Introduction**
 The social network has the capability to influence and change what people think, do, and react to everything happening around them. The social network has the capability to incept thoughts and ideas at an individual and societal level. 
@@ -34,9 +35,20 @@ Key Goals for the project that we set and achieved were
     *   *Topic Analysis* : Identify top topics in tweets and predict the dominant topic and its percentage for each tweet.
     *   *Visualize* : Lastly compare our findings and present them as part of our final project.
 
-Implementation Details / Project Approach and Architecture:
+Project Approach and Architecture:
 
 ![Image1](/visualization/Implementation_Arch.png)
+
+* Contribution and credits 
+    * Step1 : Data Scrapping & Storage  : Prateek
+    * Step2 : Data Preprocessing        : Prateek & Unnati
+    * Step3 : Exploratory Analysis      : Prateek & Unnati
+    * Step4 & 5 : Model Build & Train
+        * Naive Bayes & KNN             : Unnati
+        * LDA                           : Prateek
+    * Step 6 : Visualizations
+        * Naive Bayes & KNN             : Unnati
+        * LDA                           : Prateek
 
 ### **Data Preparation:**
 
@@ -121,6 +133,8 @@ The above bar graph shows the three subset of data.
     * NLPCleaned ( With Lemmatization)
 
     **Conclusion** - We can see that positive sentiment declined while Negative sentiment were identified more in context of our research. The final data set of NLP cleaned is a fairly balanced dataset for further analysis. This also serves as our baseline dataset for prediction and topic analysis. 
+
+#### Step 4 and 5: Train and Build Naive Bayes , KNN and LDA with Model Evaluations
  
 **Topic Modeling using LDA**
 
@@ -142,6 +156,8 @@ We have tried use Naive Bayes algorithm with both Count vectorizer which perform
         
 We also tried to use the discriminative algorithm: K-Nearest neighbor for predicting the sentiment of the same above mentioned data set. We have taken vader sentiment analyzer to be our baseline for generating the labels for positive, negative and neutral. Here also, we import the same cleaned and pre-processed data as in Naive Bayes but we have used 80% of the data for training and rest 20% for testing.
 Building the feature vector for K-NN was a very time taking step. 
+
+#### Step 6: Visualizations
 
 **Results Comparison**
         
@@ -166,6 +182,12 @@ Building the feature vector for K-NN was a very time taking step.
         
   - Accuracy, Recall and F1 score decrease as value of k increases, Precision increases.
   - Accuracy as compared with Naive Bayes is less.
+
+  *LDA*
+  From LDAvis help ,we can visualize the top 10 Topics and how they overlap. The HTML file is available in visualization folder for you to test.
+  We see the distribution of words as well the top topics and its relevance in the document.
+![image6](/visualization/ldavis_prepared_10.html)
+
 
 **Conclusion and Future work**
 
