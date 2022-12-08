@@ -110,9 +110,42 @@ This bar graph shows that in the original not preprocessed data, we see that the
 
 **Sentiment Analysis using Naive Bayes**
 
+In this project, we have taken Vader Sentiment Analyzer to be our baseline for generating the labels for positive, negative and neutral. While implementing, we had also used TextBlob sentiment analyzer but found Vader sentiment analyzer to be better in distributing the data. (with TextBlob, there were more tweets classified as Neutral as compared with Vader).
+
+For training the model, we use 75 % of the data and rest 25% for testing.
+
+We have tried use Naive Bayes algorithm with both Count vectorizer which performs the task of tokenizing and counting and TF-IDF focuses on the frequency of words present in the corpus and also provides the importance of the words.
+        
 **Sentiment Analysis using K-Nearest Neighbor**
+        
+We also tried to use the discriminative algorithm: K-Nearest neighbor for predicting the sentiment of the same above mentioned data set. We have taken vader sentiment analyzer to be our baseline for generating the labels for positive, negative and neutral. Here also, we import the same cleaned and pre-processed data as in Naive Bayes but we have used 80% of the data for training and rest 20% for testing.
+Building the feature vector for K-NN was a very time taking step. 
 
 **Results Comparison**
+        
+ *Naive Bayes using Count Vectorizer*:
+
+        
+        ![image](https://user-images.githubusercontent.com/109382284/206327484-e3675b66-2bb4-4393-8e76-301162fee892.png)
+
+        
+ - As the value of n-grams increase, accuracy, precision, recall and F1-score decrease.
+        
+  *Naive Bayes using Tf-IDF*:
+ 
+        
+        ![image](https://user-images.githubusercontent.com/109382284/206327637-e3fbadb4-9633-446f-b1a7-6cb465ca8158.png)
+
+        
+ - Same as Naive Bayes using Count Vectorizer since the stopwords which become the common words were already removed.
+        
+  *K-NN*
+        
+        ![image](https://user-images.githubusercontent.com/109382284/206327874-06bde09d-1097-4a1b-ad4b-d8f8fafbd2aa.png)
+
+        
+  - Accuracy, Recall and F1 score decrease as value of k increases, Precision increases.
+  - Accuracy as compared with Naive Bayes is less.
 
 **Conclusion and Future work**
 
