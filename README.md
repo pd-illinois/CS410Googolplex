@@ -2,8 +2,13 @@
 
 Please fork this repository and paste the github link of your fork on Microsoft CMT. Detailed instructions are on Coursera under Week 1: Course Project Overview/Week 9 Activities.
 
+* Course : CS410 Text Information Systems
+* **Final Project : US Midterm Election – Twitter Sentiment & Topic Analysis**
+* **Course Team**
+        * Prateek Dhiman (Captain) : pdhiman2@illinois.edu
+        * Unnati Hasija : uhasija2@illinois.edu
+ 
 **Introduction**
-
 The social network has the capability to influence and change what people think, do, and react to everything happening around them. The social network has the capability to incept thoughts and ideas at an individual and societal level. 
 
 Around election season, when there is a political environment around the nation, social media tools add fuel to political polarity. Through this project, we would like to identify the political sentiments and top topics that are discussed.
@@ -23,9 +28,9 @@ Key Goals for the project that we set and achieved were
     *Topic Analysis* : Identify top topics in tweets and predict the dominant topic and its percentage for each tweet.
     *Visualize* : Lastly compare our findings and present them as part of our final project.
 
-Implementation Details:
+Implementation Details / Project Approach and Architecture:
 
-<copy image here with implementation details>
+
 
 **Data Preparation:**
 
