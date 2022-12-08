@@ -30,16 +30,16 @@ We scraped Twitter data, preprocessed it and performed the following for US Midt
 ### **Goals**
 
 Key Goals for the project that we set and achieved were
-    *   *Sentiment Analysis*  : Identify overall positive , negative and neutral sentiments towards elections and respective parties in US
-    *   *Prediction* : Predict tweets for sentiments using Naïve Bayes and KNN. Also perform a comparison which Algorithm performs better and impact of data cleaning   techniques on precision and accuracy of predictions.
-    *   *Topic Analysis* : Identify top topics in tweets and predict the dominant topic and its percentage for each tweet.
-    *   *Visualize* : Lastly compare our findings and present them as part of our final project.
+* *Sentiment Analysis*  : Identify overall positive , negative and neutral sentiments towards elections and respective parties in US
+* *Prediction* : Predict tweets for sentiments using Naïve Bayes and KNN. Also perform a comparison which Algorithm performs better and impact of data cleaning   techniques on precision and accuracy of predictions.
+*  *Topic Analysis* : Identify top topics in tweets and predict the dominant topic and its percentage for each tweet.
+*  *Visualize* : Lastly compare our findings and present them as part of our final project.
 
-Project Approach and Architecture:
+**Project Approach and Architecture:**
 
 ![Image1](/visualization/Implementation_Arch.png)
 
-* Contribution and credits 
+* **Contribution and credits** 
     * Step1 : Data Scrapping & Storage  : Prateek
     * Step2 : Data Preprocessing        : Prateek & Unnati
     * Step3 : Exploratory Analysis      : Prateek & Unnati
@@ -50,9 +50,9 @@ Project Approach and Architecture:
         * Naive Bayes & KNN             : Unnati
         * LDA                           : Prateek
 
-### **Data Preparation:**
-
 #### Step 1: Data Scrapping & Storage
+
+**Data Preparation:**
 
 We used SNSCRAPE for capturing the tweets. We captured 20000 tweets from 1st July to 8th November (Midterm Election Day in US).
 All the 20000 tweets are available in `data` Folder in `tweets_final.csv`. This is the raw data for our project that we will use. if you are interested in seeing how we scrapped the tweets , please check `source\01_Twitter_scrape.ipynb`
@@ -184,9 +184,11 @@ Building the feature vector for K-NN was a very time taking step.
   - Accuracy as compared with Naive Bayes is less.
 
   *LDA*
+
+
   From LDAvis help ,we can visualize the top 10 Topics and how they overlap. The HTML file is available in visualization folder for you to test.
   We see the distribution of words as well the top topics and its relevance in the document.
-![image6](/visualization/ldavis_prepared_10.html)
+![image6](/visualization/LDA.png)
 
 
 **Conclusion and Future work**
@@ -200,7 +202,7 @@ Building the feature vector for K-NN was a very time taking step.
 
 
 
-**----------------------------REFERENCES-----------------------**
+#### **REFERENCES**
 
 https://betterprogramming.pub/how-to-scrape-tweets-with-snscrape-90124ed006af
 https://github.com/cjhutto/vaderSentiment
