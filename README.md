@@ -30,7 +30,7 @@ Key Goals for the project that we set and achieved were
 
 Implementation Details / Project Approach and Architecture:
 
-
+![Image](/visualization/Implementation_Arch.png)
 
 **Data Preparation:**
 
