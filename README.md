@@ -147,9 +147,7 @@ Building the feature vector for K-NN was a very time taking step.
         
  *Naive Bayes using Count Vectorizer*:
 
-        
-        ![image5](/visualization/NB_1.png)
-
+![Image1](/visualization/NB_1.png)
         
  - As the value of n-grams increase, accuracy, precision, recall and F1-score decrease.
         
