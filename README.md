@@ -11,7 +11,7 @@ Please fork this repository and paste the github link of your fork on Microsoft 
 * Key Assets
     * Github Repo : https://github.com/pd-illinois/CS410Googolplex 
     * Main Presentation with Setup Instructions / Result of Source Code Run / Error faced with Solution : CS410_Project_USMidtermElection.pdf 
-    * Project Recording with : 
+    * Project Recording on Youtube. Click the logo below to view  : 
     [![CS410](/visualization/Main_logo.png)](https://www.youtube.com/watch?v=P1Q5hqZ8f58 "CS410")
  
 ### **Introduction**
@@ -154,14 +154,14 @@ Building the feature vector for K-NN was a very time taking step.
   *Naive Bayes using Tf-IDF*:
  
         
-        ![image5](/visualization/NB_2.png)
+![image5](/visualization/NB_2.png)
 
         
  - Same as Naive Bayes using Count Vectorizer since the stopwords which become the common words were already removed.
         
   *K-NN*
         
-        ![image5](/visualization/KNN.png)
+![image5](/visualization/KNN.png)
 
         
   - Accuracy, Recall and F1 score decrease as value of k increases, Precision increases.
