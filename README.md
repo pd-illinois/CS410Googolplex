@@ -52,6 +52,9 @@ Key Goals for the project that we set and achieved were
 
 #### Step 1: Data Scrapping & Storage
 
+**PIP**
+Please use pip install -r requirements.txt while you are in source folder after cloning the repository.
+
 **Data Preparation:**
 
 We used SNSCRAPE for capturing the tweets. We captured 20000 tweets from 1st July to 8th November (Midterm Election Day in US).
